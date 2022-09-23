@@ -1,0 +1,103 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f0e68c;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-family: "Brush Script MT";
+  font-style: oblique;
+  font-weight: 750;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+
+.ingredients {
+  list-style-type: circle;
+}
+
+.steps {
+  list-style-type: georgian;
+}
+
+p {
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.link {
+  color: white;
+  background-color: red;
+}
+
+.link {
+  block-size: 50px;
+  margin: auto;
+  border-radius: 50%;
+  border-style: double;
+  border-width: 5px;
+  border-color: orangered;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: none;
+  text-align: center;
+  text-decoration: none;
+}
+.buttons {
+  margin-top: 5%;
+}
+.link.home {
+  margin: auto;
+  margin-left: 90%;
+}
+
+img.img {
+  height: 250px;
+  width: auto;
+}
+
+#index {
+  background-color: aqua;
+  max-width: 200px;
+  text-align: center;
+}
+
+.recipes {
+  background-color: #f0e68c;
+  border-color: black;
+  border-style: solid;
+  text-align: center;
+  position: relative;
+  margin-top: 20%;
+}
+
+#ones,
+#two,
+#three,
+#four {
+  border-style: double;
+}
